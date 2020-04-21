@@ -16,7 +16,11 @@ What does it stand for?
 🤔
 
 - What are the equivalent _express_ methods?
+  POST, GET, [PUT, PATCH], DELETE
 - What are the corresponding _http_ codes?
+  CEATE: 200
+  READ: 201
+  UPDATE/DELETE: 200/204 (Can't send information back with 204), these two are mostly interchangeable otherwise.
 
 ---
 
